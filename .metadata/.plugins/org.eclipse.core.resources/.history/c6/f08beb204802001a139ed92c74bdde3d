@@ -1,0 +1,10 @@
+package java_coading_challenege;
+
+public class swap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

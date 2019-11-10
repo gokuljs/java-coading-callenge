@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - palindrome",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.palindrome",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - fact",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.fact",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-swap<java_coading_challenege>",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.swap",
+            "projectName": "java_coading_challenege"
+        }
+    ]
+}
