@@ -23,6 +23,7 @@ class vectar{
         System.out.println(v.size());
 
         System.out.println(v.capacity());
+        
 
 
 
