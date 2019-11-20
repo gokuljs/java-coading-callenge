@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - leap",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.leap",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - pattern",
             "request": "launch",
             "mainClass": "java_coading_challenege.pattern",

@@ -83,7 +83,7 @@ class pattern {
                 space--;
             }
             space=0;
-            for (int i=r;i>0;i--){
+            for (int i=r;i>0;i--){ 
 
                 // printing it in reverse order should start from zero
                 for (int j=0;j<space;j++){
