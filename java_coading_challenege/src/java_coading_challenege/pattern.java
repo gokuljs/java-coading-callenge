@@ -21,6 +21,7 @@ class pattern {
         if (y==1){
             System.out.println("enter the length of the string ");
             int n=sc.nextInt();
+            System.out.println("enter your pattern");
             String x=sc.next();
             for (int i=0;i<n;i++){
                 for(int j=0;j<n;j++){
@@ -28,6 +29,23 @@ class pattern {
                 }
                 System.out.println();
             }
+        }
+        else if(y==2){
+            System.out.println("printing an right angled triangle");
+            System.out.println("enter the length ");
+            int s=sc.nextInt();
+            System.out.println("enter the patterns");
+            String l=sc.next();
+            for (int i=0;i<s;i++){
+                for (int j=0;j<=i;j++){
+                    System.out.print(l);
+                }
+                System.out.println(" ");
+            }
+
+
+            
+
         }
         
     }
