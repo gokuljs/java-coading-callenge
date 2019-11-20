@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - pattern",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.pattern",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - equals",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.equals",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - vectar",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.vectar",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - java",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.java",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - palindrome",
             "request": "launch",
             "mainClass": "java_coading_challenege.palindrome",
