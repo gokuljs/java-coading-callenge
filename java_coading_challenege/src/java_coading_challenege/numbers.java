@@ -14,9 +14,15 @@ class numbers {
         else if (n==2){
             l1.nivien();
         }
-       // else if (n==3){
-          //  l1.special();
-       // }
+        else if (n==3){
+            l1.special();
+        }
+        else if(n==4){
+            l1.perfect();
+        }
+        else if(n==5){
+            l1.happy();
+        }
     }
     public void amstrong(){
         //to check wether entere number is amstrong number or not 
@@ -71,7 +77,95 @@ class numbers {
             System.out.println("not nvien number");
         }
 
+    }
+    public void special(){
+        Scanner sc=new Scanner(System.in);
+        //enter the special numbers 
+        //special numbers are the numbers sum of the factorial of each digit is the same number
+        // 145 then 1!+2!+3!=145
+        System.out.println("enter the number");
+        int n=sc.nextInt();
+        int temp=n;
+        int sum=0;
+        int fact=1;
+        int r;
 
+        while(temp!=0){
+            r=temp%10;
+            System.out.println("r="+r);
+
+            for (int i=1;i<=r;i++){
+                fact=fact*i;
+                System.out.println(fact);
+            }
+            sum=sum+fact;
+            temp=temp/10;
+            fact=1;
+            
+
+
+        }
+        System.out.println(sum);
+        if (sum==n){
+            System.out.println("it is a special number");
+        }
+        else{
+            System.out.println("not special number ");
+        }
+
+
+
+    }
+    public void perfect(){
+        Scanner sc=new Scanner(System.in);
+        // perfect number are the sum of divisors other than number itself is equal to perfect number 
+        System.out.println("enter the number ");
+        int n=sc.nextInt();
+        int sum=0;
+        for(int i=1;i<n;i++){
+            if (n%i==0){
+                sum=sum+i;
+            }
+
+        }
+        System.out.println("sum="+sum);
+        if (sum==n){
+            System.out.println("entered number is perfect number");
+        }
+        else {
+            System.out.println("entered number id not perfect number");
+        }
+
+
+
+
+    }
+    public void happy(){
+        Scanner sc =new Scanner(System.in);
+        //31 =3^2+1^2=10
+        //then 10=1^2+0^2=1
+        // if it is equal to 1 then happy number 
+        System.out.println("enter the number ");
+        int n=sc.nextInt();
+        double temp=0;
+        double r;
+        double sum=0;
+        while (temp!=0){
+            r=temp%10;
+            sum=sum+Math.pow(r,2);
+            temp=temp/10;
+        }
+        if (sum==1){
+            System.out.println("happy number");
+        }
+        else {
+            temp=sum;
+            while(temp!=0){
+                r=temp%10;
+
+            }
+
+        }
 
     }
 }
