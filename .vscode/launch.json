@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - numbers",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.numbers",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - twinprime",
             "request": "launch",
             "mainClass": "java_coading_challenege.twinprime",
