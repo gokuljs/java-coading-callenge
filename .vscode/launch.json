@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - fib",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.fib",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - elementcheck",
             "request": "launch",
             "mainClass": "java_coading_challenege.elementcheck",

@@ -13,6 +13,8 @@ class hashset{
     while(n.hasNext()){
         System.out.println(n.next());
     }
+    System.out.println(h.contains(1));
+
     }
     
 
