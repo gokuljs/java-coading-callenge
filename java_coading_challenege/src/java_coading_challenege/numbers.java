@@ -155,14 +155,17 @@ class numbers {
             sum=sum+Math.pow(r,2);
             temp=temp/10;
         }
+        
         if (sum==1){
             System.out.println("happy number");
         }
         else {
             temp=sum;
+            sum=0;
             while(temp!=0){
                 r=temp%10;
-
+                sum=sum+Math.pow(r, 2);
+                temp=temp/10;
             }
 
         }
