@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - elementcheck",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.elementcheck",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - hashset",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.hashset",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - listtoarray",
             "request": "launch",
             "mainClass": "java_coading_challenege.listtoarray",
