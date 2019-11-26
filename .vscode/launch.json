@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - listtoarray",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.listtoarray",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - transverse",
             "request": "launch",
             "mainClass": "java_coading_challenege.transverse",

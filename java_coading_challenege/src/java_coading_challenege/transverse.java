@@ -38,7 +38,8 @@ class transverse{
         Iterator i=a.iterator();
         System.out.println("$$$$$$$$$$$$$");
 
-        while(i.hasNext()){
+        while(i.hasNext()){// has next checks is there any element to iterate or not 
+            
             System.out.println(i.next());
         }
 
