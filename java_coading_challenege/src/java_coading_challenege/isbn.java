@@ -9,17 +9,25 @@ class isbn {
 
 */
         System.out.println("enter the isbn code");
-        double n=sc.nextDouble();
-        double temp=n;
-        int i=0;
+        long n=sc.nextLong();
+        long temp=n;//0112112425
+        int i=1;
         double sum=0;
-        double r;
+        long r;
         while(temp!=0){
-            r=temp%10;
-            sum=sum +(r*i);
-            i++;
+            r=temp%10;//5,2,4
+            sum=sum +(r*i);//0+5*0,0+2*1,,2+4*2 ..........
+            temp=temp/10;
+            i++;//i=1,2,3
         }
         System.out.println(sum);
+        if (sum%11==0){
+            System.out.println("isbn number");            
+        }
+        else {
+            System.out.println("not isbn number");
+
+        }
 
     }
 }
