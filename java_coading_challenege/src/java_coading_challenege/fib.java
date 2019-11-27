@@ -9,7 +9,9 @@ class fib{
         int n=sc.nextInt();
         fib i=new fib();
         i.fib1(n);
+        i.test3(n);
         long j=i.fib2(n);
+        System.out.println(j);
         
         
     }
@@ -22,7 +24,10 @@ class fib{
             b=c;
             c=a+b;
             System.out.println(a);
+
         }
+        System.out.println("-----------------------------");
+
 }
     public long fib2(int n){
         if (n<=1){
@@ -32,6 +37,15 @@ class fib{
             return(fib2(n-1)+fib2(n-2));
         }
 
+    }
+    public void test3(int n){
+        int a;
+        int b;
+        for (int i=1;i<n;i++){
+            a=i-1;
+            b=i-2;
+            System.     out.println(a+b);
+        }
     }
 
 }
