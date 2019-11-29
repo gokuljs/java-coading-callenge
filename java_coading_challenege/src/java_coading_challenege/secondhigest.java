@@ -7,6 +7,7 @@ class secondhigest{
         Random r =new Random();
         int n=5;
         int []a=new int [n+1];
+        System.out.println("enter the numbers ");
         for (int i=0;i<n;i++){
             a[i]=sc.nextInt();
         }
@@ -27,7 +28,10 @@ class secondhigest{
             System.out.println(a[i]);
 
         }
-        int max1,max2=a[0];
+        int max1=a[0];
+        int max2=a[1];
+        
+        System.out.println("second heigest elemnet "+max2);
         
 
 
