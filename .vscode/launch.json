@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - duplicatestring",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.duplicatestring",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - missing",
             "request": "launch",
             "mainClass": "java_coading_challenege.missing",
