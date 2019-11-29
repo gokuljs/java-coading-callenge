@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - transpose",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.transpose",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - zerosto1",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.zerosto1",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ascend",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.ascend",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - secondhigest",
             "request": "launch",
             "mainClass": "java_coading_challenege.secondhigest",
