@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - reverse",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.reverse",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - transpose",
             "request": "launch",
             "mainClass": "java_coading_challenege.transpose",

@@ -11,6 +11,23 @@ class reverse {
         for (int i=0;i<n;i++){
             a[i]=sc.nextInt();
         }
+        int start=0;
+        int end =n-1;
+        int temp;
+        while (start<end){
+            temp=a[start];
+            a[start]=a[end];
+            a[end]=temp;
+            start++;
+            end --;
+        }
+        for (int i=0;i<n;i++){
+            System.out.println(a[i]);
+        }
+        
+        
+        
+        
 
 
     }
