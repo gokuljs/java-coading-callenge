@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - subelement",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.subelement",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - reversearr",
             "request": "launch",
             "mainClass": "java_coading_challenege.reversearr",
