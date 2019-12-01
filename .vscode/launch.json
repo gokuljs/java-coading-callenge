@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - bellman",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.bellman",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - crcit",
             "request": "launch",
             "mainClass": "java_coading_challenege.crcit",
