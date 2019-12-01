@@ -51,7 +51,7 @@ public static void solve(int n,int s,int[] d,int [][]a){
 
     }
     System.out.println("shortest path");
-    for (int i=1;i<n-1;i++){
+    for (int i=0;i<n;i++){
         System.out.println(d[i]);
     }
     for (int i=0;i<n;i++){
