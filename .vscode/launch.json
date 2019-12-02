@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - rsa",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.rsa",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - tcpserver",
             "request": "launch",
             "mainClass": "java_coading_challenege.tcpserver",
