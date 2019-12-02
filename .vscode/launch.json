@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - leaky2",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.leaky2",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - leaky",
             "request": "launch",
             "mainClass": "java_coading_challenege.leaky",
