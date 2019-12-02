@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - bell",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.bell",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - crc2",
             "request": "launch",
             "mainClass": "java_coading_challenege.crc2",
