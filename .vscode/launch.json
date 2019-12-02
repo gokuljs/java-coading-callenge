@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - tcpserver2",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.tcpserver2",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - tcpclient2",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.tcpclient2",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - bell",
             "request": "launch",
             "mainClass": "java_coading_challenege.bell",
