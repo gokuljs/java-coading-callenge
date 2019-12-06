@@ -11,11 +11,11 @@ class recursion{
         
 
     }
-    public static int fact(int n){
+    public static int fact(int n){//5,4
         if(n==0){
             return 1;
         }
-        return(n*fact(n-1));
+        return(n*fact(n-1));//5*fact(4),5*4*3*2*1*0
 
     }
 }

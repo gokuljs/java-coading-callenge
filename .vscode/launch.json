@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - lapindrome",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.lapindrome",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - reverserecurse",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.reverserecurse",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - recursion",
             "request": "launch",
             "mainClass": "java_coading_challenege.recursion",
