@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - recursion",
+            "request": "launch",
+            "mainClass": "java_coading_challenege.recursion",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - leaky2",
             "request": "launch",
             "mainClass": "java_coading_challenege.leaky2",

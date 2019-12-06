@@ -10,19 +10,14 @@ class crcit{
         for (int i=0;i<n;i++){
             a[i]=sc.nextInt();
         }
-        System.out.println("enter the degree of divisor");
-        int gen=sc.nextInt();
-        System.out.println("enter the divisior");
-        int []b=new int [1000];
-        for (int i=0;i<gen;i++){
-            b[i]=sc.nextInt();
-        }
+        int []b={1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1};
+        n=n+b.length-1;
+        
         System.out.println(" dataword");
         for (int i=0;i<n;i++){
             System.out.println(a[i]);
         }
         int m=n;
-        n=n+gen-1;
         for(int i=m;i<n;i++){
             a[i]=0;
         }
@@ -46,7 +41,7 @@ class crcit{
         for (int i=0;i<n;i++){
             System.out.println(poly[i]);
         }
-        for (int i=0;i<3+m;i++){
+        for (int i=0;i<16+m;i++){
             a[i]=a[i]^poly[i];
         }
         int []s=new int [1000];
@@ -76,7 +71,7 @@ public static void div(int n,int m,int []poly,int []b){
     int count=0;
     for (int i=0;i<m;i++){
         if(poly[i]==b[0]){
-            for (int j=i;j<4+i;j++){
+            for (int j=i;j<17+i;j++){
                 poly[j]=poly[j]^b[count++];
             }
             count=0;
