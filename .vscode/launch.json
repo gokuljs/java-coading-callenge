@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - transpose",
+            "request": "launch",
+            "mainClass": "transpose"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - lapindrome",
             "request": "launch",
             "mainClass": "java_coading_challenege.lapindrome",
