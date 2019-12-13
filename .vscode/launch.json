@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - pali",
+            "request": "launch",
+            "mainClass": "pali"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - transpose",
             "request": "launch",
             "mainClass": "transpose"
