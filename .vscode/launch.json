@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - dup",
+            "request": "launch",
+            "mainClass": "dup"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - pali",
             "request": "launch",
             "mainClass": "pali"
