@@ -10,7 +10,7 @@ class dup{
             for (int j=i+1;j<sp.length();j++){
                 if (ch[i]==ch[j]){
                     flag=1;
-                    System.out.println(ch[i]);
+                    System.out.println(ch[j]);
 
                 }
                 else{
