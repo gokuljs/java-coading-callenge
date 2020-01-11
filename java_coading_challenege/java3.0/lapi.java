@@ -25,6 +25,8 @@ class lapi{
         else {
             for(int i=0;i<n/2;i++){
                 for(int j=n/2+1;j<n;j++){
+
+
                     if (c[i]==c[j]){
                         flag=1;
                     }

@@ -2,6 +2,26 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - dist",
+            "request": "launch",
+            "mainClass": "dist"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - re",
+            "request": "launch",
+            "mainClass": "re",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - recur",
+            "request": "launch",
+            "mainClass": "recur",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - lapi",
             "request": "launch",
             "mainClass": "lapi",
