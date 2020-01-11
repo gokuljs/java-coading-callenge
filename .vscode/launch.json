@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - lapi",
+            "request": "launch",
+            "mainClass": "lapi",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - dupele",
             "request": "launch",
             "mainClass": "dupele"
