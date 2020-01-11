@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - dupele",
+            "request": "launch",
+            "mainClass": "dupele"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - dup",
             "request": "launch",
             "mainClass": "dup"
