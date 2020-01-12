@@ -6,21 +6,18 @@ class drev{
         int n=a.length;
         int []temp=new int [100];
         int j=0;
-        for (int i=0;i<n;i++){
-            if (a[i]!=a[i+1]){
-                temp[j++]=a[i];
-            }
-            
+        HashMap<Integer,Integer> b=new HashMap<Integer,Integer>();
+        for(int i=0;i<n;i++){
+            hashmap.put(a[i],i);
         }
-        temp[j++]=a[n-1];
-        for(int i=0;i<j;i++){
-            a[i]=temp[i];
+        Syste
+        Iterator<Integer> k=b.keySet().iterator();
+        while(k.hasNext()){
+            System.out.println(k.next());
         }
-        for(int i=0;i<j;i++){
-            System.out.println(a[i]);
-        }
+
+
 
         
     }
-
 }

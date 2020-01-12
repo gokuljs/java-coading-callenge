@@ -1,0 +1,7 @@
+package javatest;
+
+public class tra {
+	public static void main(String []args) {
+		System.out.println("hello");
+	}
+}
