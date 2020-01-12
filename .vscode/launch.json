@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - drev",
+            "request": "launch",
+            "mainClass": "drev"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - rev",
             "request": "launch",
             "mainClass": "rev"
