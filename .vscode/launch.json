@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - shift",
+            "request": "launch",
+            "mainClass": "shift"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - desc",
             "request": "launch",
             "mainClass": "desc"
