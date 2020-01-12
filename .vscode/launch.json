@@ -2,6 +2,31 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - desc",
+            "request": "launch",
+            "mainClass": "desc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - asc",
+            "request": "launch",
+            "mainClass": "asc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - higest",
+            "request": "launch",
+            "mainClass": "higest",
+            "projectName": "java_coading_challenege"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - secondhigest",
+            "request": "launch",
+            "mainClass": "secondhigest"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - dist",
             "request": "launch",
             "mainClass": "dist"

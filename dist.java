@@ -13,6 +13,7 @@ class dist{
             a1.put(a[i],i);
         }
         System.out.println(a1.keySet()); 
+        
 
     }
 }
